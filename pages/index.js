@@ -4,14 +4,6 @@ import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-	useEffect(() => {
-		const getData = async () => {
-			// const res = await fetch('https://api-coderhouse.vercel.app/api/products')
-			// const data = await res.json()
-			// console.log(data)
-		}
-		getData()
-	})
 	return (
 		<div className={styles.container}>
 			<Head>
